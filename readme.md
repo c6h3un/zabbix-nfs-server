@@ -72,3 +72,7 @@ nfs v4 servop        write:     3201
 1. put the *zabbix-nfs-server.conf* under `/etc/zabbix/zabbix_agentd.conf.d/` and restart service
 2. import *nfs-v4-server.xml* to zabbix server
 3. Checking if getting data, then all done.
+
+## References 
+- http://elixir.free-electrons.com/linux/latest/source/Documentation/filesystems/nfs/knfsd-stats.txt
+- https://www.svennd.be/nfsd-stats-explained-procnetrpcnfsd/
